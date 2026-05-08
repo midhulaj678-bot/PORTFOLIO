@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header{
+
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    height: 100px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    color: black;
+    gap: 20px;
+}
+span{
+    color: blue;
+}
+
+
+.name{
+    font-size: 20px;
+}
+.nav-link>a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.hero{
+    padding: 0 100px;
+}
+
+.title{
+font-size: 60px;
+}
+.th{
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .8;
+}
+button{
+    color: #eee3e3;
+    background-color: black;
+    border-style: none;
+    border-radius: 5px;
+    padding: 20px;
+}
+.works{
+    height: 100vh;
+    padding: 100px 100px;
+    
+}
+.work-card{
+    /* width: 300px;
+    height: 350px; */
+    padding: 25px;
+    background-color: rgb(223, 230, 230);
+    width: 250px;
+    border-radius: 10px;
+}
+.work-image{
+    width: 250px;
+    height: 150px;
+    background-color: gray;
+    border-radius:10px ;
+}
+.work-items{
+    display: flex;
+    justify-content: space-between;
+}
