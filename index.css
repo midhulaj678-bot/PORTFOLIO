@@ -54,7 +54,8 @@ button{
 }
 .works{
     height: 100vh;
-    padding: 100px 100px;
+    padding: 10px 100px;
+    padding-top: 100px;
     
 }
 .work-card{
@@ -74,4 +75,11 @@ button{
 .work-items{
     display: flex;
     justify-content: space-between;
+}
+.footer{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
